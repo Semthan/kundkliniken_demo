@@ -354,3 +354,48 @@ ul {
 	vertical-align: baseline;
 	background: transparent;
 }
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 782px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1440px) {
+}
+
+@media (max-width: 479px) {
+}
+
+@media (max-width: 575px) {
+}
+
+@media (max-width: 599px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1439px) {
+}
