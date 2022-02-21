@@ -375,7 +375,8 @@ ul {
 	position: relative;
 }
 
-.nav_logo {
+.nav_logo,
+.hamburger_container {
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -391,6 +392,37 @@ ul {
 	border-radius: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+}
+
+.hamburger_toggle {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+}
+
+.hamburger_button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-size: 22px;
+	padding: 0.25em;
+	cursor: pointer;
+	border: 0 solid;
+	border-radius: 3px;
+	background-color: transparent;
+	color: #000;
 }
 
 .main_nav_mobile nav {
@@ -446,6 +478,14 @@ ul {
 
 	.nav_logo {
 		width: 30%;
+	}
+
+	.hamburger_container {
+		width: 70%;
+	}
+
+	.hamburger_toggle {
+		justify-content: flex-end;
 	}
 }
 
