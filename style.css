@@ -355,6 +355,10 @@ ul {
 	background: transparent;
 }
 
+.hidden {
+	display: none;
+}
+
 .menu_container {
 	display: block;
 	height: 66px;
@@ -423,6 +427,13 @@ ul {
 	border-radius: 3px;
 	background-color: transparent;
 	color: #000;
+}
+
+.close_button {
+	line-height: 1;
+	font-size: 25px;
+	padding: 0.25em;
+	color: #f72585;
 }
 
 .main_nav_mobile nav {
