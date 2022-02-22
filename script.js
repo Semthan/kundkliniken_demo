@@ -20,4 +20,22 @@ document.addEventListener("DOMContentLoaded", function () {
       closed = true
     }
   })
+
+  let tjanster = document.getElementById('tjanster')
+  let subNav = document.getElementById('sub_nav')
+
+  /*   tjanster.addEventListener('click', function () {
+      if (subNav.style.display === 'none') {
+        subNav.style.display = 'block'
+      }
+    }) */
+  tjanster.addEventListener('click', function () {
+    if (closed) {
+      subNav.classList.remove('hidden')
+      closed = false
+    } else {
+      subNav.classList.add('hidden')
+      closed = true
+    }
+  })
 })

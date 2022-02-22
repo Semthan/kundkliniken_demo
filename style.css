@@ -480,8 +480,11 @@ ul {
 	color: #000;
 }
 
+.tjanster {
+	display: flex;
+}
+
 .sub_nav {
-	display: none;
 	width: auto;
 	font-size: 13px;
 	line-height: normal;
@@ -496,10 +499,17 @@ ul {
 }
 
 .sub_arrow {
-	line-height: 1;
-	padding: 10px 0 10px 10px;
-	margin-top: -10px;
-	margin-bottom: -10px;
+  line-height: 1;
+  padding: 10px 0 10px 10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 }
 
 @media (min-width: 576px) {
