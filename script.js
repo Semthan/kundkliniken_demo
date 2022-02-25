@@ -24,11 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let tjanster = document.getElementById('tjanster')
   let subNav = document.getElementById('sub_nav')
 
-  /*   tjanster.addEventListener('click', function () {
-      if (subNav.style.display === 'none') {
-        subNav.style.display = 'block'
-      }
-    }) */
   tjanster.addEventListener('click', function () {
     if (closed) {
       subNav.classList.remove('hidden')
