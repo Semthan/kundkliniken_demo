@@ -573,6 +573,7 @@ ul {
 }
 
 .top_footer {
+	position: relative;
 	margin-top: 200px;
 	margin-bottom: 0px;
 	padding: 0px 0px 80px 0px;
@@ -582,21 +583,14 @@ ul {
 }
 
 .bg_overlay {
-	position: absolute;
+	/* 	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0; */
 	opacity: 0.51;
 	background-color: #2f2f2f;
 	transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-}
-
-.divider_container {
-	display: flex;
-	padding-top: 48px;
-	padding-bottom: 48px;
-}
-
-.divider {
-	width: 100%;
-	border-top: 1px dashed #b5838d;
 }
 
 .demologotyp {
@@ -614,6 +608,23 @@ ul {
 
 .demologotyp p {
 	color: #fff;
+}
+
+.divider_container {
+	display: flex;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	margin-bottom: 32px;
+}
+
+.divider {
+	width: 100%;
+	border-top: 1px dashed #b5838d;
+}
+
+.footer_menu {
+	margin-top: -32px;
+	margin-bottom: 0px;
 }
 
 .footer_menu_col {
