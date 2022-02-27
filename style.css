@@ -572,6 +572,71 @@ ul {
 	background-color: #666;
 }
 
+.top_footer {
+	margin-top: 200px;
+	margin-bottom: 0px;
+	padding: 0px 0px 80px 0px;
+	background-color: #f7ebe5;
+	background-image: url("/img/footer_bg.jpg");
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.bg_overlay {
+	position: absolute;
+	opacity: 0.51;
+	background-color: #2f2f2f;
+	transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.footer_menu_col {
+	width: 25%;
+}
+
+.menu_heading {
+	margin-bottom: 32px;
+	-webkit-transition: background 0.3s, border 0.3s, -webkit-border-radius 0.3s,
+		-webkit-box-shadow 0.3s;
+	transition: background 0.3s, border 0.3s, -webkit-border-radius 0.3s,
+		-webkit-box-shadow 0.3s;
+	-o-transition: background 0.3s, border 0.3s, border-radius 0.3s,
+		box-shadow 0.3s;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+		-webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.menu_heading h5 {
+	color: #fff;
+	font-family: "Lora", Sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.278em;
+	letter-spacing: 1px;
+}
+
+.footer_menu_col ul {
+	padding: 0;
+}
+
+.footer_menu_col nav li:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.footer_menu_col a {
+	color: #fff;
+	fill: #fff;
+	padding: 0px;
+
+	font-family: Open Sans, Sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-style: normal;
+	line-height: 1.333em;
+	letter-spacing: 1px;
+}
+
 .lower_footer {
 	padding: 12px 0px 12px 0px;
 	background-color: #222222;
