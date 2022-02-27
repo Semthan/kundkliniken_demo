@@ -599,6 +599,23 @@ ul {
 	border-top: 1px dashed #b5838d;
 }
 
+.demologotyp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 48px;
+	margin-bottom: 0px;
+}
+
+.demologtyp_container img {
+	width: 200px;
+	margin-bottom: 32px;
+}
+
+.demologotyp p {
+	color: #fff;
+}
+
 .footer_menu_col {
 	width: 25%;
 }
