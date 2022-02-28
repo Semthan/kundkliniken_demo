@@ -691,16 +691,19 @@ ul {
 	padding: 0% 25% 0% 0%;
 }
 
-.part_one_right_content > .sub_title h6 {
+.part_one_right_content .sub_title h6,
+.part_two .sub_title h6 {
 	color: #f72585;
 }
 
-.po_title {
+.po_title,
+.pt_title {
 	margin: -24px 0px 0px 0px;
 	margin-bottom: 32px;
 }
 
-.po_title h2 {
+.po_title h2,
+.pt_title h2 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 64px;
@@ -710,6 +713,33 @@ ul {
 
 .middle_content p {
 	margin-bottom: 32px;
+}
+
+.part_two {
+	display: flex;
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+.part_two_left {
+	width: 57%;
+	margin: 0px 64px 0px 0px;
+	padding: 0% 0% 0% 12%;
+}
+
+.part_two_right {
+	width: 43%;
+	margin-top: -100px;
+	margin-bottom: 0px;
+}
+
+.ptr_imgs {
+	display: flex;
+}
+
+.ptr_imgs img {
+	width: 50%;
+	padding: 0px 15px 0px 0px;
 }
 
 .footer {
