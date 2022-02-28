@@ -692,7 +692,8 @@ ul {
 }
 
 .part_one_right_content .sub_title h6,
-.part_two .sub_title h6 {
+.part_two .sub_title h6,
+.part_three .sub_title h6 {
 	color: #f72585;
 }
 
@@ -703,7 +704,8 @@ ul {
 }
 
 .po_title h2,
-.pt_title h2 {
+.pt_title h2,
+.pth_title h2 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 64px;
@@ -740,6 +742,61 @@ ul {
 .ptr_imgs img {
 	width: 50%;
 	padding: 0px 15px 0px 0px;
+}
+
+.part_three {
+	display: flex;
+	overflow: hidden;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	padding: 80px 0px 80px 0px;
+}
+
+.part_three_left {
+	width: 53%;
+}
+
+.embed_play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.embed_play i {
+	columns: #fff;
+}
+
+.part_three_right {
+	width: 46.956%;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	padding: 0px 0px 0px 64px;
+}
+
+.part_three_right ul {
+	padding: 0;
+}
+
+.part_three_right li:not(:last-child) {
+	padding-bottom: calc(16px / 2);
+}
+
+.part_three_right i {
+	color: #f72585;
+	width: 1.25em;
+	font-size: 24px;
+}
+
+.check_text {
+	padding: 16px;
+	font-family: "Lora", Sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.154em;
 }
 
 .footer {
