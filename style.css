@@ -587,7 +587,9 @@ ul {
 
 .sub_title,
 .landing_title,
-.fraga {
+.fraga,
+.po_title,
+.middle_content {
 	margin-bottom: 32px;
 }
 
@@ -640,6 +642,74 @@ ul {
 	fill: #fff;
 	color: #fff;
 	background-color: #f72585;
+}
+
+.part_one {
+	display: flex;
+	max-width: 1600px;
+	overflow: hidden;
+	margin-top: -113px;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.part_one_left {
+	width: 42%;
+}
+
+.pol_bg {
+	text-align: right;
+	margin: 0px -38px 0px 0px;
+	padding: 0px 38px 40px 0px;
+	background-image: url(https://demo.kundkliniken.se/wp-content/uploads/2022/01/accent-rectangle.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 524px auto;
+}
+
+.part_one_left img {
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	margin: 0% 0% 0% 0%;
+	--e-column-margin-right: 0%;
+	--e-column-margin-left: 0%;
+	padding: 213px 0px 0px 0px;
+	max-width: 420px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.part_one_right {
+	width: 58%;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	margin: 0% 0% 0% 0%;
+	--e-column-margin-right: 0%;
+	--e-column-margin-left: 0%;
+	padding: 213px 0px 221px 64px;
+}
+
+.part_one_right_content {
+	padding: 0% 25% 0% 0%;
+}
+
+.part_one_right_content > .sub_title h6 {
+	color: #f72585;
+}
+
+.po_title {
+	margin: -24px 0px 0px 0px;
+	margin-bottom: 32px;
+}
+
+.po_title h2 {
+	color: #222222;
+	font-family: "Lora", Sans-serif;
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 1.125em;
+}
+
+.middle_content p {
+	margin-bottom: 32px;
 }
 
 .footer {
