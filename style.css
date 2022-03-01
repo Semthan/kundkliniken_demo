@@ -799,6 +799,92 @@ ul {
 	line-height: 1.154em;
 }
 
+.reviews {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.reviews_left {
+	display: flex;
+	width: 56.565%;
+	background-color: #222222;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.r_left {
+	width: 23%;
+}
+
+.r_left img {
+	text-align: left;
+	margin: -108px 0px 0px 0px;
+}
+
+.r_right {
+	width: 76.999%;
+	padding: 100px 64px 0px 0px;
+}
+
+.r_right .sub_title h6,
+.reviewer_txt .sub_title h6 {
+	color: #fde2e4;
+}
+
+.reviews_title h2 {
+	color: #fff;
+	font-family: "Lora", Sans-serif;
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 1.125em;
+	letter-spacing: -2px;
+	margin: -24px 20px 0px 0px;
+}
+
+.stars {
+	margin-bottom: 32px;
+	margin-right: 1px;
+	color: #f2c94c;
+}
+
+.review {
+	color: #fff;
+	font-family: "Open Sans", Sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.333em;
+	margin-bottom: 32px;
+}
+
+.reviewer {
+	display: flex;
+	margin-bottom: 32px;
+}
+
+.reviewer_pic {
+	width: 12%;
+	text-align: left;
+	margin-right: 16px;
+}
+
+.reviewer_pic img {
+	border-radius: 100%;
+}
+
+.reviewer_name {
+	margin-bottom: 0px;
+	color: #ffffff;
+	font-family: "Lora", Sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.154em;
+}
+
+.reviews_right {
+	width: 43.435%;
+}
+
 .footer {
 	background-color: #666;
 }
