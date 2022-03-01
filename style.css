@@ -800,6 +800,7 @@ ul {
 }
 
 .reviews {
+	display: flex;
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
@@ -882,7 +883,13 @@ ul {
 }
 
 .reviews_right {
+	display: flex;
 	width: 43.435%;
+}
+
+.r_pic_left,
+.r_pic_right {
+	width: 50%;
 }
 
 .footer {
