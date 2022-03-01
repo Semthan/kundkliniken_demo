@@ -693,7 +693,8 @@ ul {
 
 .part_one_right_content .sub_title h6,
 .part_two .sub_title h6,
-.part_three .sub_title h6 {
+.part_three .sub_title h6,
+.varumarken .sub_title h6 {
 	color: #f72585;
 }
 
@@ -890,6 +891,17 @@ ul {
 .r_pic_left,
 .r_pic_right {
 	width: 50%;
+}
+
+.varumarken {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.partners img {
+	margin-right: 25px;
+	filter: brightness(150%) contrast(70%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 .footer {
