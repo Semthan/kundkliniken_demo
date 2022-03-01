@@ -694,7 +694,8 @@ ul {
 .part_one_right_content .sub_title h6,
 .part_two .sub_title h6,
 .part_three .sub_title h6,
-.varumarken .sub_title h6 {
+.varumarken .sub_title h6,
+.blogg_header .sub_title h6 {
 	color: #f72585;
 }
 
@@ -706,7 +707,8 @@ ul {
 
 .po_title h2,
 .pt_title h2,
-.pth_title h2 {
+.pth_title h2,
+.blogg_title h2 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 64px;
@@ -902,6 +904,57 @@ ul {
 .partners img {
 	margin-right: 25px;
 	filter: brightness(150%) contrast(70%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
+.blogg {
+	padding: 100px 0px 100px 0px;
+}
+
+.blogg > .main_container {
+	flex-direction: column;
+	align-items: center;
+}
+
+.blogg_header {
+	max-width: 725px;
+	margin-top: 0px;
+	margin-bottom: 64px;
+	text-align: center;
+}
+
+.blogg_title h2 {
+	margin: -24px 0px 32px 0px;
+}
+
+.post_container {
+	display: flex;
+	column-gap: 30px;
+	text-align: center;
+}
+
+.post_pic {
+	margin-bottom: 16px;
+}
+
+.post_pic img {
+	width: auto;
+}
+
+.pos_title {
+	margin-bottom: 16px;
+}
+
+.post_title h3 {
+	color: #222222;
+	font-family: "Lora", Sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.154em;
+}
+
+.post_date {
+	color: #b5838d;
 }
 
 .footer {
