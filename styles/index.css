@@ -786,7 +786,8 @@ input.bk_input {
 .pt_title h2,
 .pth_title h2,
 .blogg_title h2,
-.erbjudande_title h2 {
+.erbjudande_title h2,
+.contact_page_title h2 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 64px;

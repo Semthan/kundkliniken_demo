@@ -1,0 +1,24 @@
+.contact_page {
+	overflow: hidden;
+	padding: 22px 0px 22px 0px;
+}
+
+.contact_page > .main_container {
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 64px;
+}
+
+.contact_page .sub_title h6 {
+	color: #f72585;
+}
+
+.contact_page_title h2 {
+	margin: -24px 0px 32px 0px;
+}
+
+.middle_content {
+	max-width: 700px;
+}
