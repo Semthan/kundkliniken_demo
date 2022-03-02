@@ -11,7 +11,8 @@
 	margin-bottom: 64px;
 }
 
-.contact_page .sub_title h6 {
+.contact_page .sub_title h6,
+.contact_info .sub_title h6 {
 	color: #f72585;
 }
 
@@ -21,4 +22,42 @@
 
 .middle_content {
 	max-width: 700px;
+}
+
+.contact_left {
+	width: 48%;
+	margin: 0px 15px 0px 0px;
+}
+
+.contact_left .sub_title {
+	margin-bottom: 8px;
+}
+
+.info_mail {
+	font-family: "Lora", Sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.167em;
+	margin-bottom: 24px;
+}
+
+.info_adress h3,
+.info_tel h3 {
+	color: #222222;
+	font-family: "Lora", Sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.154em;
+	margin-bottom: 8px;
+}
+
+.info_tel {
+	margin: 0 0 47px 0;
+}
+
+.contact_right {
+	width: 52%;
+	border: 1px solid green;
 }
