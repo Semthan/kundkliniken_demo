@@ -572,7 +572,7 @@ ul {
 	width: 1423px;
 	left: 0px;
 	background-color: #ffffff;
-	background-image: url("img/footer_bg.jpg");
+	background-image: url("/img/footer_bg.jpg");
 	background-position: center right;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
