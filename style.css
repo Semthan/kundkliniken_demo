@@ -771,7 +771,8 @@ input.bk_input {
 .part_two .sub_title h6,
 .part_three .sub_title h6,
 .varumarken .sub_title h6,
-.blogg_header .sub_title h6 {
+.blogg_header .sub_title h6,
+.erbjudande .sub_title h6 {
 	color: #f72585;
 }
 
@@ -784,7 +785,8 @@ input.bk_input {
 .po_title h2,
 .pt_title h2,
 .pth_title h2,
-.blogg_title h2 {
+.blogg_title h2,
+.erbjudande_title h2 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 64px;
@@ -983,7 +985,7 @@ input.bk_input {
 }
 
 .blogg {
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 200px 0px;
 }
 
 .blogg > .main_container {
@@ -1047,12 +1049,37 @@ input.bk_input {
 	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
+.erbjudande_popup {
+	margin-top: -200px;
+	margin-bottom: 0px;
+	animation: fadeUp 1.25s ease;
+}
+
+.erbjudande_popup > .main_container {
+	justify-content: center;
+}
+
+.erbjudande {
+	background-color: #fff;
+	opacity: 0.8;
+}
+
+.erbjudande_content {
+	text-align: center;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	padding: 32px 32px 32px 32px;
+}
+
+.erbjudande_content input.bk_input {
+	width: 60%;
+}
+
 .bg_overlay {
-	/* 	position: absolute;
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	top: 0;
-	left: 0; */
+	left: 0;
 	opacity: 0.51;
 	background-color: #2f2f2f;
 	transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
