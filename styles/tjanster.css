@@ -1,0 +1,70 @@
+.vara_tjanster_page {
+	background-image: url(https://demo.kundkliniken.se/wp-content/uploads/2022/01/bg-gray.png);
+	background-position: 0px 540px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding: 30px 0px 0px 0px;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.vara_tjanster_page > .main_container {
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 64px;
+}
+
+.tjanster_landing .sub_title h6 {
+	color: #f72585;
+}
+
+.tjanster_title h2 {
+	margin: -24px 0px 32px 0px;
+}
+
+.middle_content {
+	max-width: 700px;
+}
+
+.vara_tjanster_container.main_container {
+	flex-direction: row;
+}
+
+.tjanst {
+	width: 33.33%;
+	margin: 0px 15px 0px 15px;
+}
+
+.tjanst_img {
+	margin-bottom: 16px;
+}
+
+.tjanst_img img {
+	margin: 0px 0px -42px 0px;
+}
+
+.contact_us {
+	margin-bottom: 16px;
+}
+
+.tjanst_content {
+	margin: 30px 0;
+}
+
+.tjanst_title h3 {
+	color: #222222;
+	font-family: "Lora", Sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.154em;
+}
+
+.middle_content {
+	font-family: "Open Sans", Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.563em;
+}
