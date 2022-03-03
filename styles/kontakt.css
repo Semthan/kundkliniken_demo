@@ -43,7 +43,8 @@
 }
 
 .info_adress h3,
-.info_tel h3 {
+.info_tel h3,
+.boka_tid_title h3 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 26px;
@@ -59,5 +60,71 @@
 
 .contact_right {
 	width: 52%;
-	border: 1px solid green;
+	margin: 0px 15px 0px 0px;
+}
+
+.cr_top {
+	margin-top: 0px;
+	margin-bottom: 32px;
+}
+
+.boka_tid_container {
+	margin: 0px 0px 0px 0px;
+	padding: 35px 35px 35px 35px;
+	background-color: #fde2e4;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.boka_tid_container form {
+	margin: 8px 0px 0px 0px;
+}
+
+form.booka {
+	margin-left: calc(-16px / 2);
+	margin-right: calc(-16px / 2);
+	margin-bottom: -16px;
+}
+
+form.booka input,
+textarea {
+	padding-right: calc(16px / 2);
+	padding-left: calc(16px / 2);
+	margin-bottom: 16px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #fde2e4;
+	border-radius: 5px 5px 5px 5px;
+	padding: 16px 16px 16px 16px;
+
+	font-family: "Open sans", Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.357em;
+
+	color: #828282;
+}
+
+.contact_us {
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+.cr_bottom {
+	overflow: hidden;
+}
+
+.cr_bottom {
+	margin-bottom: 24px;
+}
+
+iframe {
+	height: 387px;
+	filter: brightness(100%) contrast(100%) saturate(25%) blur(0px)
+		hue-rotate(0deg);
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	line-height: 1;
+	border: none;
 }
