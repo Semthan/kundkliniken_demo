@@ -1,0 +1,27 @@
+.about_one {
+	display: flex;
+}
+
+.ao_left {
+	width: 42%;
+	padding: 100px 0px 0px 0px;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.ao_right {
+	width: 58%;
+	padding: 100px 0 0px 64px;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.ao_right_content {
+	padding: 0% 25% 0% 0%;
+}
+
+.ao_right .sub_title h6 {
+	color: #f72585;
+}
+
+.about_one_title h2 {
+	margin: -24px 0px 32px 0px;
+}
