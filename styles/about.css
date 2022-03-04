@@ -20,7 +20,8 @@
 }
 
 .ao_right .sub_title h6,
-.at_left h6 {
+.at_left h6,
+.about_four .sub_title h6 {
 	color: #f72585;
 }
 
@@ -91,4 +92,26 @@
 .right_list {
 	width: 50%;
 	padding: 0px 16px 0px 0px;
+}
+
+.about_four {
+	padding: 100px 0px 100px 0px;
+}
+
+.about_four > .main_container {
+	flex-direction: column;
+	align-items: center;
+}
+
+.varu {
+	display: flex;
+}
+
+.varu_item {
+	margin: 0 50px;
+	width: 22.048%;
+}
+
+.varu_item img {
+	filter: brightness(150%) contrast(70%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
