@@ -1,4 +1,5 @@
-.about_one {
+.about_one,
+.about_two {
 	display: flex;
 }
 
@@ -18,10 +19,45 @@
 	padding: 0% 25% 0% 0%;
 }
 
-.ao_right .sub_title h6 {
+.ao_right .sub_title h6,
+.at_left h6 {
 	color: #f72585;
 }
 
 .about_one_title h2 {
 	margin: -24px 0px 32px 0px;
+}
+
+.about_two {
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+.at_left {
+	width: 57%;
+}
+
+.at_left_content {
+	margin: 0px 64px 0px 0px;
+	padding: 0% 0% 0% 23%;
+}
+
+.at_sub_title {
+	font-family: "Open Sans", Sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 1.333em;
+	margin-bottom: 32px;
+}
+
+.at_right {
+	width: 43%;
+	display: flex;
+}
+
+.atr_left,
+.atr_right {
+	width: 50%;
+	padding: 0px 15px 0px 15px;
 }
