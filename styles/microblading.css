@@ -17,3 +17,36 @@
 .micro_one_title {
 	margin-bottom: 24px;
 }
+
+.micro_two {
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.mt_left {
+	width: 48%;
+}
+
+.mt_left_content {
+	margin: 0px 64px 0px 0px;
+	padding: 0 0 0 27%;
+}
+
+.mt_right {
+	width: 52%;
+	display: flex;
+}
+
+.mt_0,
+.mt_1 {
+	width: 50%;
+}
+
+.mt_0 {
+	padding: 0px 15px 0px 0px;
+}
+
+.mt_1 {
+	padding: 135px 0px 0px 15px;
+}

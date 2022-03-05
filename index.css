@@ -818,7 +818,8 @@ input.bk_input {
 .varumarken .sub_title h6,
 .blogg_header .sub_title h6,
 .erbjudande .sub_title h6,
-.mo_right h6 {
+.mo_right h6,
+.mt_left .sub_title h6 {
 	color: #f72585;
 }
 
@@ -837,7 +838,8 @@ input.bk_input {
 .tjanster_title h2,
 .about_one_title h2,
 .about_two_title h2,
-.mo_right h2 {
+.mo_right h2,
+.mirco_two_title h2 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 64px;
