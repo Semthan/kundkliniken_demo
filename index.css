@@ -819,7 +819,8 @@ input.bk_input {
 .blogg_header .sub_title h6,
 .erbjudande .sub_title h6,
 .mo_right h6,
-.mt_left .sub_title h6 {
+.mt_left .sub_title h6,
+.mth_righty .sub_title h6 {
 	color: #f72585;
 }
 
@@ -839,7 +840,8 @@ input.bk_input {
 .about_one_title h2,
 .about_two_title h2,
 .mo_right h2,
-.mirco_two_title h2 {
+.mirco_two_title h2,
+.micro_three_title h2 {
 	color: #222222;
 	font-family: "Lora", Sans-serif;
 	font-size: 64px;
@@ -923,12 +925,14 @@ input.bk_input {
 }
 
 .part_three_right li:not(:last-child),
-.about_list li:not(:last-child) {
+.about_list li:not(:last-child),
+.mth_list li:not(:last-child) {
 	padding-bottom: calc(16px / 2);
 }
 
 .part_three_right i,
-.about_list i {
+.about_list i,
+.mth_list i {
 	color: #f72585;
 	width: 1.25em;
 	font-size: 24px;
@@ -937,7 +941,7 @@ input.bk_input {
 .check_text {
 	padding: 16px;
 	font-family: "Lora", Sans-serif;
-	font-size: 26px;
+	font-size: 30px;
 	font-weight: 400;
 	font-style: normal;
 	line-height: 1.154em;

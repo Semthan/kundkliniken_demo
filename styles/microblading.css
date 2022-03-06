@@ -50,3 +50,32 @@
 .mt_1 {
 	padding: 135px 0px 0px 15px;
 }
+
+.micro_three {
+	display: flex;
+}
+
+.mth_left {
+	width: 39%;
+}
+
+.mth_right {
+	width: 61%;
+}
+
+.mth_bg {
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	padding: 0px 0px 100px 64px;
+	background-color: #fff;
+	background-image: url(https://demo.kundkliniken.se/wp-content/plugins/elementor/assets/images/placeholder.png);
+	background-position: 42.5em 0%;
+	background-repeat: no-repeat;
+}
+
+.mth_bg .middle_content {
+	padding: 0% 33% 0% 0%;
+}
+
+.mth_list ul {
+	padding: 0;
+}
