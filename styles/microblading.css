@@ -79,3 +79,13 @@
 .mth_list ul {
 	padding: 0;
 }
+
+.micro_four {
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+.mf_left,
+.mf_right {
+	width: 50%;
+}
